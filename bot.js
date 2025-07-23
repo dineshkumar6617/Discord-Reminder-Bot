@@ -3,8 +3,8 @@ const schedule = require('node-schedule');
 const fs = require('fs');
 const path = require('path');
 
-const TOKEN = "NzMzOTAzMzI1NTkzODYyMjE1.GBSL2K.bF836KUYL8fQm_j_SUwJGmjNblLgmvNBSXdep4";
-const CHANNEL_ID = 1343379987310575687;
+const TOKEN = "enter your token id";
+const CHANNEL_ID = "enter your channel id";
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
